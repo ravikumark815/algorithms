@@ -24,13 +24,13 @@ int main()
     printf("\nArray:\n");
     for(i=0;i<n;i++)
         printf("| %d ",a[i]);
-    printf("|\nEnter the element to be searched:\t");
+    printf("|\n\nEnter the element to be searched:\t");
     scanf("%d",&key);
     low =0;
     high = n-1;
     mid = (low+high)/2;
     if(BinarySearch(low,high,key))
-        printf("\nElement Found at:\t%d",BinarySearch(low,high,key));
+        printf("\nElement Found at:\t%d\n",BinarySearch(low,high,key));
     else
         printf("\nElement Not Found\n");
     return 0;
