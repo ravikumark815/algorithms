@@ -1,5 +1,5 @@
 /*
------ Bubble Sort Algorithm -----
+----- Selection Sort Algorithm -----
 
 Author: https://github.com/ravikumark815
 */
