@@ -12,6 +12,10 @@ int main()
 {
     int n=0,i=0,low=0,mid=0,high=0,key=0;
 
+    printf("\n\n~~~~~~~~~~~~~~~~~~~~ Algorithms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    printf("\nVisit github/ravikumark815 <> linkedin.com/in/ravikumark815 for more");
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
+
     printf("\n------- Binary Search -------\n");
     printf("Enter the number of elements:\t");
     scanf("%d",&n);

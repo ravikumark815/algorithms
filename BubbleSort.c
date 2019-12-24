@@ -11,6 +11,10 @@ int main()
 {
     int n=0,i=0,a[50];
 
+    printf("\n\n~~~~~~~~~~~~~~~~~~~~ Algorithms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+    printf("\nVisit github/ravikumark815 <> linkedin.com/in/ravikumark815 for more");
+    printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
+    
     printf("\n------- Bubble Sort -------\n");
     printf("Enter the number of elements (Max:50):\t");
     scanf("%d",&n);
