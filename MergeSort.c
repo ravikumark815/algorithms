@@ -4,6 +4,7 @@
 Author: https://github.com/ravikumark815
 */
 #include<stdio.h>
+#include<time.h>
 
 int MergeSort(int a[],int low, int high);
 int Merge(int a[], int low, int mid, int high);
@@ -11,6 +12,8 @@ int Merge(int a[], int low, int mid, int high);
 int main()
 {
     int n=0,i=0,a[50];
+    clock_t tstart, tend;
+    double tdiff;
 
     printf("\n\n~~~~~~~~~~~~~~~~~~~~ Algorithms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     printf("\nVisit github/ravikumark815 <> linkedin.com/in/ravikumark815 for more");
@@ -30,12 +33,16 @@ int main()
         printf("| %d ",a[i]);
     printf("|\n");
 
+    tstart = clock();
     MergeSort(a, 0, n-1);
+    tend = clock();
+    tdiff = (double)(tend-tstart) / CLOCKS_PER_SEC;
     
     printf("\nSorted Array:\n");
     for(i=0;i<n;i++)
         printf("| %d ",a[i]);
     printf("|\n");
+    printf("Time Taken: %f\n\n", tdiff);
 
     return 0;
 }

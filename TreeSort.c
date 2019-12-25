@@ -5,6 +5,7 @@ Author: https://github.com/ravikumark815
 */
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h>
 
 struct BST
 {
@@ -20,6 +21,8 @@ int main()
 {
     struct BST* P;
     int n=0,i=0,a[50];
+    clock_t tstart, tend;
+    double tdiff;
     
     printf("\n\n~~~~~~~~~~~~~~~~~~~~ Algorithms ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     printf("\nVisit github/ravikumark815 <> linkedin.com/in/ravikumark815 for more");
@@ -42,10 +45,15 @@ int main()
         BSTInsert(&P, a[i]);
     }
     printf("|\n");
+    
+    tstart = clock();
+    BSTInorder(P);
+    tend = clock();
+    tdiff = (double)(tend-tstart) / CLOCKS_PER_SEC;
 
     printf("\nSorted Array:\n");
-    BSTInorder(P);
     printf(" |\n\n");
+    printf("Time Taken: %f\n\n", tdiff);
 
     return 0;
 }
