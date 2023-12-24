@@ -34,7 +34,7 @@ int binary_search_re(int *array, int low, int high, int element)
 int main ()
 {
     int n = 0;
-    printf("\n------- Queue ------\n");
+    printf("\n------- Binary Search ------\n");
     printf("Enter the number of elements: ");
     scanf("%d", &n);
     
