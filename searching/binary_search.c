@@ -64,6 +64,7 @@ int main ()
     if (res_re) {
         printf("\nElement found at index: %d\n", res_re);   
         printf("Time taken [Recursive]:%f\n", (double)(tend_re-tstart_re) / CLOCKS_PER_SEC);
+        return 0;
     }
 
     printf("Element not found in the array\n");
