@@ -16,7 +16,7 @@ void array_display(int *array, int arrsize)
     printf("|\n");
 }
 
-int Partition(int *array, int low, int high)
+int partition(int *array, int low, int high)
 {
     int pivot_elem = array[high];
     int i = low - 1;
