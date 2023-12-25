@@ -42,7 +42,7 @@ int fibonacci_search(int *array, int element, int arrsize)
     return 0;
 }
 
-int main ()
+void main ()
 {
     int n = 0;
     printf("\n------- Fibonacci Search ------\n");
