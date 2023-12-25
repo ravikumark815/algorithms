@@ -61,16 +61,12 @@ int main ()
     scanf("%d", &element);
 
     tstart = clock();
-    res = fibonacci_search(array, element, n);
+    res = linear_search(array, element, n);
     tend = clock();
     
-    if (res) {
-        printf("Element found at index: %d\n", res);
-        printf("Time taken:%f\n", (double)(tend-tstart) / CLOCKS_PER_SEC); 
-        return 0;
-    }
-
-    printf("Element not found in the array\n");
+    if (res) printf("Element found at index: %d\n", res);
+    else printf("Element not found in the array\n");
     printf("Time taken:%f\n", (double)(tend-tstart) / CLOCKS_PER_SEC); 
-    return 0;
+    
+    return;
 }
