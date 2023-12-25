@@ -61,7 +61,7 @@ int main ()
     scanf("%d", &element);
 
     tstart = clock();
-    res = linear_search(array, element, n);
+    res = fibonacci_search(array, element, n);
     tend = clock();
     
     if (res) printf("Element found at index: %d\n", res);
