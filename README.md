@@ -18,3 +18,8 @@ Most popular algorithms are implemented in C Code in this repository.
 Quick Sort| [Link](https://github.com/ravikumark815/algorithms/blob/master/quick_sort.c) |
 Merge Sort | [Link](https://github.com/ravikumark815/algorithms/blob/master/merge_sort.c) |
 Bubble Sort | [Link](https://github.com/ravikumark815/algorithms/blob/master/bubble_sort.c) |
+
+| Graph Algorithms | C    | C++    | Python |
+| :---:   | :---: | :---: | :---: |
+Dijkstra's Algorithm| [Link](https://github.com/ravikumark815/algorithms/blob/master/dijkstra.c) |
+
